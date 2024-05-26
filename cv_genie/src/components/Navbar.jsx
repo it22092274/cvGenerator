@@ -9,13 +9,13 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-            <img src={logo} alt="Logo" width={30} height={50} />
+            <img src={logo} alt="Logo" width={50} height={50} />
         </Link>
       </div>
       <ul className="nav-links">
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/how-to-use">How to use</Link></li>
-        <li><Link to="/contact">Review</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><a href="#how-to-use">How to use</a></li>
+        <li><a href="#contact">Review</a></li>
       </ul>
       <div className="social-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

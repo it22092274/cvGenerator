@@ -7,7 +7,7 @@ function Welcome() {
   return (
     <div className="welcome">
       <div>
-        <h1 >Welcome To <br /> CV Genie</h1>
+        <h1 >Welcome To <br /> Genie CV</h1>
         <button className="create-cv">create your cv</button>
       </div>
       <img src={genieImage} alt="Genie" className="genie-image" />
