@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: rgb(31, 31, 31);
+    height: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .nav-links a:hover{
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 0.5rem;
+    color: rgb(31, 31, 31);
+  }
+  
+  .social-icons a {
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+  }
+  
