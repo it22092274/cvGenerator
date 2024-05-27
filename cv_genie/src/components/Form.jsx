@@ -115,6 +115,7 @@ function FormComponent({close}) {
       // Restore the visibility of download button and scroll bars after capturing screenshot
       downloadButton.style.display = 'block';
       document.body.style.overflow = 'auto';
+
     });
   };
   
@@ -271,7 +272,6 @@ function FormComponent({close}) {
       {isModalOpen && (
         <div className="modal">
           <div className="modal-content">
-            <span className="close-button" onClick={() => setIsModalOpen(false)}>&times;</span>
             <div  ref={resumeRef} style={{backgroundColor: "transparent"}}>
                 <Theme1 {...formData} />
                 <button type='button' onClick={handlePrint}>Download PDF</button>     
