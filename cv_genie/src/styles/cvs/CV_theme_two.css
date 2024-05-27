@@ -1,0 +1,86 @@
+/* Styles for CV_theme_three Component */
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .details h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact div {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact div span {
+    margin-left: 5px;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .education, .skills, .work-experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .education div, .skills p, .work-experience div {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-experience h3 {
+    margin-top: 0;
+  }
+  

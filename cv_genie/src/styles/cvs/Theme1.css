@@ -1,0 +1,166 @@
+
+  .main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    overflow-y: scroll;
+  }
+  
+ .main-container .leftpane,
+  .main-container .rightpane {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .leftpane {
+    flex: 1;
+    background: #0073b1;
+    color: #ffffff;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .rightpane {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .main-container img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid blanchedalmond;
+  }
+  
+  .main-container  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .main-container .heading{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .main-container  .theme1-icon{
+    font-size: 18px;
+  }
+  
+  h1 span {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  h1 .theme1-icon {
+    margin-right: 10px;
+  }
+
+  .contactdetails{
+    margin: 25px 0;
+  }
+  
+  p, small, legend {
+    margin: 8px 0;
+    padding: 0;
+  }
+  
+  .contactsec, .Educationsec, .skillsec {
+    margin-bottom: 20px;
+  }
+  
+  .contactsec p, .Educationsec p {
+    margin-top: 5px;
+  }
+  
+  .skillsec ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skillsec ul li {
+    background: #005582;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .details h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .details small {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .profiles, .workexperience, .reference {
+    margin-top: 20px;
+  }
+  
+  .profiles {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .workexperience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .workexperience ul li {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .workexperience ul li p {
+    margin-top: 10px;
+  }
+  
+  .reference h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .refcards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .refcards .card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    height: 150px;
+  }
+  
+  .refcards .card legend {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .refcards .card p {
+    margin-top: 10px;
+  }
+  
+  .refcards .card small {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+  }
+  

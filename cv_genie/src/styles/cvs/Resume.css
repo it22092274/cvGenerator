@@ -1,0 +1,91 @@
+.resume-themefour {
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-themefour {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image-themefour {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .contact-info-themefour {
+    flex-grow: 1;
+  }
+  
+  .name-themefour {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .occupation-themefour {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .contact-themefour {
+    margin: 5px 0;
+  }
+  
+  .github-link-themefour {
+    color: #0073b1;
+    text-decoration: none;
+  }
+  
+  .github-link-themefour:hover {
+    text-decoration: underline;
+  }
+  
+  .section-themefour {
+    margin-bottom: 20px;
+  }
+  
+  .section-themefour h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #0073b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .section-themefour ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section-themefour ul li {
+    margin-bottom: 10px;
+  }
+  
+  .section-themefour ul li h3 {
+    margin: 0;
+  }
+  
+  .section-themefour ul li p {
+    margin: 5px 0;
+  }
+  
+  .skills-themefour ul,
+  .languages-themefour ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-themefour ul li,
+  .languages-themefour ul li {
+    margin-right: 20px;
+  }
+  
