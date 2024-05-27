@@ -272,10 +272,9 @@ function FormComponent({close}) {
         <div className="modal">
           <div className="modal-content">
             <span className="close-button" onClick={() => setIsModalOpen(false)}>&times;</span>
-            <div  ref={resumeRef} >
+            <div  ref={resumeRef} style={{backgroundColor: "transparent"}}>
                 <Theme1 {...formData} />
-                <button type='button' onClick={handlePrint}>Download PDF</button>
-             
+                <button type='button' onClick={handlePrint}>Download PDF</button>     
             </div>
            
           </div>

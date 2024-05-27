@@ -8,7 +8,6 @@
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     color: #333;
-    overflow-y: scroll;
   }
   
  .main-container .leftpane,
@@ -28,6 +27,8 @@
   .rightpane {
     flex: 1;
     padding-left: 40px;
+    background-color: #FFF;
+    width: fit-content;
   }
   
   .main-container img {
